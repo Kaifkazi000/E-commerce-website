@@ -1,0 +1,158 @@
+ /* Full Page Centering */
+.contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: url("/public/perfume-bg.jpg") center/cover no-repeat;
+  padding: 20px;
+}
+
+/* Centering Wrapper */
+.contact-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Contact Form Box */
+.contact-container {
+  background: white;
+  padding: 30px;
+  width: 90%;
+  max-width: 450px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Tag (Contact Us) */
+.tag {
+  background: #6c47ff;
+  color: white;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 50px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Title - "Let's Get In Touch." */
+.title {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Email Link */
+.subtitle a {
+  color: #6c47ff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.subtitle a:hover {
+  text-decoration: underline;
+}
+
+/* Input Fields */
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #444;
+  border-radius: 6px;
+  font-size: 16px;
+  background: black;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+/* Hover & Focus Effects */
+.input-group input:focus,
+.input-group textarea:focus {
+  border-color: #6c47ff;
+  outline: none;
+  background: #222;
+}
+
+/* Checkbox Container */
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Custom Checkbox */
+.checkbox input {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #d4c0a7; /* Creamish Border */
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  background: #f5e6d0; /* Creamish Background */
+}
+
+/* Checkbox Checked Effect */
+.checkbox input:checked {
+  background: #6c47ff;
+  border-color: #6c47ff;
+}
+
+.checkbox input:checked::before {
+  content: "✔";
+  position: absolute;
+  top: 2px;
+  left: 4px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* Privacy Policy Link */
+.checkbox label a {
+  color: #6c47ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.checkbox label a:hover {
+  text-decoration: underline;
+}
+
+/* Submit Button */
+.submit-btn {
+  background: #6c47ff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.3s ease-in-out;
+}
+
+/* Submit Button Hover */
+.submit-btn:hover {
+  background: #5a38e0;
+}

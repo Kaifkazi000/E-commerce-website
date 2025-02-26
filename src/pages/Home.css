@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f8f8f8;
+  padding: 0 5%;
+  gap: 50px;
+}
+
+.home-text {
+  flex: 1;
+  max-width: 50%;
+}
+
+.brand-name {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.brand-tagline {
+  font-size: 1.2rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.home-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.perfume-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

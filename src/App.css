@@ -1,0 +1,8 @@
+body {
+  background-color: #F5F5DC; /* Light Cream Color */
+  background-image: url("../assets/texture.jpg"); /* Agar texture add karna ho */
+  background-size: cover;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
+}
+
